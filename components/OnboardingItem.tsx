@@ -1,5 +1,7 @@
 import {Dimensions, Image, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
+import Paginator from './Paginator';
+import { slides } from '../data';
 const {width} = Dimensions.get('window');
 
 interface Slide {

@@ -1115,6 +1115,8 @@ PODS:
     - React-perflogger (= 0.73.7)
   - RNBootSplash (5.5.3):
     - React-Core
+  - RNCAsyncStorage (1.23.1):
+    - React-Core
   - SocketRocket (0.6.1)
   - Yoga (1.14.0)
 
@@ -1193,6 +1195,7 @@ DEPENDENCIES:
   - React-utils (from `../node_modules/react-native/ReactCommon/react/utils`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - RNBootSplash (from `../node_modules/react-native-bootsplash`)
+  - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -1311,6 +1314,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   RNBootSplash:
     :path: "../node_modules/react-native-bootsplash"
+  RNCAsyncStorage:
+    :path: "../node_modules/@react-native-async-storage/async-storage"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -1376,6 +1381,7 @@ SPEC CHECKSUMS:
   React-utils: d07d009101c7dabff68b710da5c4a47b7a850d98
   ReactCommon: 8cae78d3c3eceff20ee4bbca8bb73b675a45fd5d
   RNBootSplash: e025d4ee98d942ee6c8b495a6fe66339a6b5f6dd
+  RNCAsyncStorage: 826b603ae9c0f88b5ac4e956801f755109fa4d5c
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: 47d399a73c0c0caa9ff824e5c657eae31215bfee
 
